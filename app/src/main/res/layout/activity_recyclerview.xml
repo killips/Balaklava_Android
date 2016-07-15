@@ -6,7 +6,7 @@
     tools:context=".RecyclerViewFragment">
 
     <android.support.design.widget.AppBarLayout
-        android:layout_height="72dp"
+        android:layout_height="64dp"
         android:layout_width="match_parent">
         <include layout="@layout/main_toolbar" />
     </android.support.design.widget.AppBarLayout>

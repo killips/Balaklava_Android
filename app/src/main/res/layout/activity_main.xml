@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/left"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="0dp"
@@ -10,5 +9,10 @@
     android:paddingTop="0dp"
     tools:context="ru.balaklava_online.smiriv.balaklava.MainActivity"
     android:orientation="horizontal">
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/left"
+        android:orientation="horizontal"></LinearLayout>
 
-</LinearLayout>
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/right" android:visibility="gone"
+        android:orientation="horizontal"></LinearLayout>
+
+</RelativeLayout>
