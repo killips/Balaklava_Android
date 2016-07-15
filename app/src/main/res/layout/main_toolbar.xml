@@ -3,8 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="64dp"
+    android:layout_height="@dimen/abc_action_bar_default_height_material"
     android:id="@+id/main_toolbar"
-    android:background="#ffb700">
+    android:background="#ffb700"
+    android:clickable="true">
 
 </android.support.v7.widget.Toolbar>

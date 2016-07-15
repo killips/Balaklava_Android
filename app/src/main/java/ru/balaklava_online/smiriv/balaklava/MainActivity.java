@@ -18,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Log.d("AllTag", "CountFragment: " + fragmentManager.getBackStackEntryCount());
-
+        Log.d("MyTag", "CountFragment: " + fragmentManager.getBackStackEntryCount());
+        Log.d("MyTag","Create MainActivity Fragment "+this);
         LinearLayout fr = (LinearLayout) findViewById(R.id.right);
         LinearLayout fl = (LinearLayout) findViewById(R.id.left);
 

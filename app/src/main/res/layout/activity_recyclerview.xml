@@ -6,7 +6,7 @@
     tools:context=".RecyclerViewFragment">
 
     <android.support.design.widget.AppBarLayout
-        android:layout_height="64dp"
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
         android:layout_width="match_parent">
         <include layout="@layout/main_toolbar" />
     </android.support.design.widget.AppBarLayout>
@@ -15,5 +15,5 @@
         android:layout_width="fill_parent"
         android:layout_height="match_parent"
         android:id="@+id/recyclerView"
-        android:layout_marginTop="72dp"></android.support.v7.widget.RecyclerView>
+        android:layout_marginTop="@dimen/abc_action_bar_default_height_material"></android.support.v7.widget.RecyclerView>
 </FrameLayout>
